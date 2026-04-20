@@ -98,17 +98,9 @@ python main.py --model grt --dataset yoochoose
 
 ## Results
 
-Here we show results on Diginetica for example, other results can be found in our paper.
+Here we show results on YooChoose dataset for example, other results can be found in our paper.
 
-**Note that we use a more standard and unified pipeline for fair evaluation and preventing overfitting.**
-
-We split the sessions in each dataset into train/validation/test set in temporal order in a ratio of 8:1:1. We report results on the test set with models that gain the highest performance on the validation set.
-
-|Model|R@20|MRR@20|
-|-|-|-|
-|CORE-ave|50.21|18.07|
-|CORE-trm|52.89|18.58|
-
+<img src="asset/MRR@20.png" width="45%"> <img src="asset/Recall@20.png" width="45%">
 <img src="asset/res.png" width="50%">
 
 ## Acknowledgement
